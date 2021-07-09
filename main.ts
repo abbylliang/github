@@ -17,4 +17,6 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
-mySprite.say("Hello!")
+mySprite.say("Hello!", 2000)
+pause(1000)
+mySprite.say("How are you?", 2000)
